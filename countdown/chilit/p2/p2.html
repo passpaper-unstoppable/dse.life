@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <!--no tracking-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PassPaper.Unstoppable - HKDSE 提供 AL CE DSE Past Paper，望每一位DSE考生都能享有平等嘅學習資源。">
+
+    <title>
+    中國文學 卷二 @ PassPaper.Unstoppable</title>
+    
+
+    <!-- Website favicon -->
+    <link rel="shortcut icon" type="image/png" href="../../../static/favicon/favicon.ico"/>
+
+    <!-- JQuery 3.4.1 -->
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js' defer></script>
+
+    <!-- Bootstrap 4.3.1 -->
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+
+    <!-- Font Awesome 5.15.4 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <!-- CSS ref file -->
+    <link rel= "stylesheet" href= "../../../static/css/style.css" type= "text/css">
+
+</head>
+
+    
+<div class="hero-anime">
+<br>
+<br>
+<br>
+	<div class="navigation-wrap bg-light start-header start-style">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-md navbar-light">
+
+						<a class="navbar-brand" href="/index.html" style="color: #1d4ed8; "> <span style="color: #F3CFC6; text-decoration: line-through;"> DSELIFE </span> PassPaper.Unstoppable </a>
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto py-4 py-md-0">
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+									
+								</li>
+							<ul class="navbar-nav ml-auto py-4 py-md-0">
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+									<a class="nav-link" href="/ppindex/ppindex.html"><i class="fab fa-hive"></i> 試題庫</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+									<a class="nav-link" href="/daily-read/daily-read.html"><i class="fas fa-newspaper"></i> 每日一篇</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<!--purify-->
+								</li>
+								
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+    <!-- Body -->
+<body>
+    <div class="main">
+        <style>
+    .custom10{
+        line-height: 35px;
+        font-size:30px !important;
+        color: black !important;
+    }
+    .custom11{
+        line-height: 20px;
+        font-size:15px !important;
+        color: black !important;
+    }
+    .custom9{
+        line-height: 15px;
+        font-size:10px !important;
+        color: black !important;
+    }
+    .centerplease{
+      padding: 5px;
+      margin: 0 auto;
+    }
+    .profile-container{
+      display:grid;
+      padding: 5px;
+      max-width: 960px;
+      width: 95%;
+      margin: 0 auto;
+      grid-template-columns: 1fr;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+        
+  <style type="text/css">
+    body {
+      box-sizing: border-box;
+      display: grid;
+      height: 90vh;
+      place-items: center;
+     }
+
+    .base-timer {
+      position: relative;
+      width: 500px;
+      height: 500px;
+      top: 50%;
+      left: 1%;
+    }
+
+    /* scaleX(1) = CLOCKWISE, scaleX(-1) = ANTI-CLOCKWISE */
+    .base-timer__svg {
+      transform: scaleX(1);
+    }
+
+    .base-timer__circle {
+      fill: none;
+      stroke: none;
+    }
+
+    .base-timer__path-elapsed {
+      stroke-width: 7px;
+      stroke: #BBB1AF;
+    }
+
+    .base-timer__path-remaining {
+      stroke-width: 7px;
+      stroke-linecap: round;
+      transform: rotate(90deg);
+      transform-origin: center;
+      transition: 1s linear all;
+      fill-rule: nonzero;
+      stroke: currentColor;
+    }
+
+    .base-timer__path-remaining.arc {
+
+      color: #ffe582
+
+    }
+
+    .base-timer__label {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 70px;
+    }
+
+    .buttons {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+    .buttons button {
+      margin: 1rem;
+      border: none;
+      background-color: beige;
+      width: 100px;
+      height: 50px;
+      border-radius: 5px;
+      padding: .3rem;
+      font-size: 1.1rem;
+    }
+
+    .buttons button:hover {
+      background-color:#8a90a7;
+      color: white;
+    }
+
+    .buttons button:disabled {
+      cursor: not-allowed;
+    }
+    .buttons button:disabled:hover{
+      background-color:beige;
+    }
+  </style>
+
+<br>
+<h1> 中國文學</h1>
+<h1> 卷二 文學賞析</h1>
+<br>
+
+
+  <div id="app">
+    <div class="base-timer">
+      <svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <g class="base-timer__circle">
+          <circle class="base-timer__path-elapsed" cx="50" cy="50" r="45"></circle>
+          <path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining arc"
+                d="
+                   M 50, 50
+                   m -45, 0
+                   a 45,45 0 1,0 90,0
+                   a 45,45 0 1,0 -90,0
+                   "></path>
+        </g>
+      </svg>
+      <span id="base-timer-label" class="base-timer__label"></span>
+    </div>
+  </div>
+<br>
+  <div class="buttons">
+    <button onclick="start()" class="start">
+      Start
+    </button>
+    <button onclick="stop()" class="stop">
+      Stop
+    </button>
+    <button onclick="reset()" class="reset">
+      Reset
+    </button>
+  </div>
+
+<script type="text/javascript">
+    const FULL_DASH_ARRAY = 283;
+    const RESET_DASH_ARRAY = `-57 ${FULL_DASH_ARRAY}`;
+
+    //All buttons
+    let startBtn = document.querySelector(".start");
+    let stopBtn = document.querySelector(".stop");
+    let resetBtn = document.querySelector(".reset");
+
+    //DOM elements
+    let timer = document.querySelector("#base-timer-path-remaining");
+    let timeLabel = document.getElementById("base-timer-label");
+
+    //Time related vars
+    const TIME_LIMIT = 7200; //in seconds
+    let timePassed = -1;
+    let timeLeft = TIME_LIMIT;
+    let timerInterval = null;
+
+    function reset() {
+      clearInterval(timerInterval);
+      resetVars();
+      startBtn.innerHTML = "Start";
+      timer.setAttribute("stroke-dasharray", RESET_DASH_ARRAY);
+    }
+
+    function start(withReset = false) {
+      setDisabled(startBtn);
+      removeDisabled(stopBtn);
+      if (withReset) {
+        resetVars();
+      }
+      startTimer();
+    }
+
+    function stop() {
+      setDisabled(stopBtn);
+      removeDisabled(startBtn);
+      startBtn.innerHTML = "Continue";
+      clearInterval(timerInterval);
+    }
+
+    function startTimer() {
+      timerInterval = setInterval(() => {
+        timePassed = timePassed += 1;
+        timeLeft = TIME_LIMIT - timePassed;
+        timeLabel.innerHTML = formatTime(timeLeft);
+        setCircleDasharray();
+
+        if (timeLeft === 0) {
+          timeIsUp();
+        }
+      }, 1000);
+    }
+
+    window.addEventListener("load", () => {
+      timeLabel.innerHTML = formatTime(TIME_LIMIT);
+      setDisabled(stopBtn);
+    });
+
+    //---------------------------------------------
+    //HELPER METHODS
+    //---------------------------------------------
+    function setDisabled(button) {
+      button.setAttribute("disabled", "disabled");
+    }
+
+    function removeDisabled(button) {
+      button.removeAttribute("disabled");
+    }
+    function timeIsUp() {
+      setDisabled(startBtn);
+      removeDisabled(stopBtn);
+      clearInterval(timerInterval);
+      let confirmReset = confirm("Time is UP! Wanna restart?");
+      if (confirmReset) {
+        reset();
+        startTimer();
+      } else {
+        reset();
+      }
+    }
+
+    function resetVars() {
+      removeDisabled(startBtn);
+      setDisabled(stopBtn);
+      timePassed = -1;
+      timeLeft = TIME_LIMIT;
+      console.log(timePassed, timeLeft);
+      timeLabel.innerHTML = formatTime(TIME_LIMIT);
+    }
+
+    function formatTime(time) {
+      const minutes = Math.floor(time / 60);
+      let seconds = time % 60;
+
+      if (seconds < 10) {
+        seconds = `0${seconds}`;
+      }
+
+      return `${minutes}:${seconds}`;
+    }
+
+    function calculateTimeFraction() {
+      const rawTimeFraction = timeLeft / TIME_LIMIT;
+      return rawTimeFraction - (1 / TIME_LIMIT) * (1 - rawTimeFraction);
+    }
+
+    function setCircleDasharray() {
+      const circleDasharray = `${(
+        calculateTimeFraction() * FULL_DASH_ARRAY
+      ).toFixed(0)} 283`;
+      console.log("setCircleDashArray: ", circleDasharray);
+      timer.setAttribute("stroke-dasharray", circleDasharray);
+    }
+  </script>
+
+        
+
+    </div>
+</body>
+    <!-- End Body -->
+
+    
+<style>
+    .specialfont{
+        color: #00004d !important;
+        font-size: 12px;
+        text-decoration: none !important;
+    }
+    .specialfont2{
+        color: #00004d !important;
+        font-size: 9px;
+        text-decoration: none !important;
+    }
+    .specialfont:hover{
+        text-decoration: none !important;
+    }
+</style>
+    <div id ='footer' class="text-center p-3" style="background-color: #ffffff;">
+
+        <a  class="specialfont" href="/countdown/chilit/p2/p2.html#">© 2025 Copyright: <b>PassPaper.Unstoppable</b></a>
+        <br><a  class="specialfont" href="/countdown/chilit/p2/p2.html#" ><b>只要你願意，一切還來得及。</b></a>
+        <br>
+        <a  class="specialfont2" href="/countdown/chilit/p2/p2.html#">不可因為民族、性別、社會以及經濟等身份差異歧視讀者；無論如何都要把知識放在觸手可及之處。<br/> 願同學們不論經濟條約如何都可以拿到歷年試卷温習，一起公平競爭。</a>
+
+    </div>
+
+    </div>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' defer></script>
+    <script type= "text/javascript" src= "../../../static/js/script.js" defer></script>
+
+
+</html>
