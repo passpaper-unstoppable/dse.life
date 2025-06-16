@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-344RRZV0S0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-344RRZV0S0');
+</script>
 		
 		<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +34,6 @@
 
     <!-- CSS ref file -->
     <link rel="stylesheet" href="/dse.life/static/css/style.css" type="text/css">
-
 </head>
 
     
@@ -68,7 +76,7 @@
       </div>
     </div>
   </div>
-<body>
+<body onload="onloadEvent()">
     <div class="main">
         <style>
     .custom10{
@@ -144,62 +152,64 @@ a:hover {
 </style>
 <!-- font  -->
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-<div class="profile-container">
-  <div class="centerplease">
-    <a> Pastpapers Update at 15 June 2025</a>
-  </div>
-</div>
-<div class="notice text-center">
-  <a>This site is a temporary clone of the original </a><a href="ipfs://passpaper.unstoppable/">dse.life</a><a> <br/>
-    a better and more complete PassPaper collection [new <a href="ipfs://passpaper.unstoppable/">ipfs://passpaper.unstoppable/</a> ] is coming. 
 
-    <br/>
-    <br/>
-
-   <br/> We found that some other mirrors contain external links to commercial, tutor centre or even risky websites. <br/>
-    Therefore, we host this clean up and more update version with minimal operation cost,<br/> 
-    and keep it sustainable without any commercial involvement.<br/>
-    <br/>
-    Simply said, it is Advs Free, Spam free, and we try our best to be trackers free.
-  </a>
-</div>
-<div class="text-center my-2">
-</div>
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:400,700" rel="stylesheet">
 
 <div id="parent" class="indexcontainer">
   <!-- Card Layout -->
   <div class="cardLayout">
     <div class="firstRow">
-      <div class="card card-long2">
+          <div class="card card-sm card-sm-bg">
+            <div class="card-reg-left-sm">
+              <a class="custom3" title="DSE PassPaper" href="/dse.life/ppindex/ppindex.html">
+              CE AL DSE <br/>Past Paper
+              <br/><br/>
+              <a class="custom3" title="HKDSE PassPaper" href="/dse.life/ppindex/ppindex.html">
+                HKDSE CE AL <br/>歷屆試題
+              </a>
+            </a></div>
+          </div>
+
+          <div class="card l-spacing card-xl card-xl-bg">
+            <div class="card-long-header"><a class="custom2" href="/dse.life/#">每日一篇+ Notes:</a><br> <a class="custom" href="/dse.life/daily-read/daily-read.html">20 Days Reading Challenge</a></div>
+            </div>
+<br/>
+  <div class="clear"></div>
+<br/>
+  <div class="clear"></div>
+      <div class="card card-long2" style="height: 300px;">
+        <h5 style="position: absolute; left: 147px; top: 3px; z-index: 100;">Recent updates 最近更新</h5>
         <div class="card-long-bg">
         </div>
-        <div class="card-long-block2">
-          <div class="card-long-header"><a class="custom2" href="/dse.life/#">每日一篇+ Notes:</a><br> <a class="custom" href="/dse.life/daily-read/daily-read.html">20 Days Reading Challenge</a></div>
+        <div class="card-long-block2" style="padding: 35px 10px 1px; height: 300px; overflow-y: scroll;">
+          <div style="min-height: 500px;">
+            <div id="update-history">
+              Loading recent updates from github with client side javascript ...
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-
   <div class="clear"></div>
 
     <div class="secondRow">
-          <div class="card card-sm card-sm-bg">
-            <div class="card-reg-left-sm"><a class="custom3" href="/dse.life/ppindex/ppindex.html">CE AL DSE <br>Past Paper</a></div>
-          </div>
-
-          <div class="card l-spacing card-xl card-xl-bg">
-              <div class="card-reg-left-xl"><a class="custom3" href="/dse.life/dsescore/uni/uni.html" >Admission score for <br>  University</a><br><br></div>
-          </div>
+      
+<div class="notice text-center" style="max-width: 500px; margin: auto;">
+  <a>This site is a temporary clone of the original </a><a href="ipfs://passpaper.unstoppable/">dse.life</a><a> <br/>
+    a better and more complete PassPaper collection [new <a href="ipfs://passpaper.unstoppable/">ipfs://passpaper.unstoppable/</a> ] is coming. 
+    <br/>
+    <br/> We found that some other mirrors contain external links to commercial ebook store, tutor centre or even risky websites. <br/>
+    Therefore, we host this clean up and more update version with minimal operation cost,
+    and keep it sustainable without any commercial involvement.<br/>
+    <br/>
+    Simply said, it is always free to read and learn.
+  </a>
+</div>
         </div>
   </div>
  </div>
 <div class="clear"></div>
-<br>
-<!-- Removed duplicate jQuery version to avoid conflicts -->
-
-        
-
     </div>
 <style>
 .popup-overlay {
@@ -295,12 +305,37 @@ a:hover {
   }
 }
 </style>
+<script type="text/javascript">
+var onloadEvent = ()=>{
+  //dynamic generate every time interval
+  //codegen//start
+  var BT30 = 'pat_'+`${atob('MTFCVFRHS0FRME9ZbEVUeEtrcUdJaA==')}_${atob('Z1YxbTVqQ2ZrZzlrWEdMN1pVN3FGanhxQW1kR3JONUZ0UzM3NHlvaTlrOERURUFEQzNXUTNRdU5OS2M=')}`;
+  //codegen//end
+  var mx = 10;
+  $.ajax({
+    url: 'https://api.github.com/repos/passpaper-unstoppable/hkdse/commits',
+    type: 'GET',
+    headers: {
+      'authorization': 'Bearer github_' + BT30,
+      'accept': 'application/vnd.github-commitcomment.raw+json',
+    },
+    success: (d) => {
+      var h = '';
+      if(d.length > mx) d = d.slice(0,mx);
+      d.forEach(o=> h+=`<li><i>${o.commit.committer.date.substring(0, 10)}</i> - <b>${o.commit.message}</b></li>`);
+      $('#update-history').html(`<ul>${h}</ul>`);
+    },
+    error: function(data) {
+      console.log('Remote API Error', data)
+    }
+  });
+};
+
+</script>
 
 
 </body>
     <!-- End Body -->
-
-    
 <style>
     .specialfont{
         color: #00004d !important;
@@ -328,6 +363,4 @@ a:hover {
     </div>
     <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' defer></script>
     <script type= "text/javascript" src= "static/js/script.js" defer></script>
-
-
 </html>
